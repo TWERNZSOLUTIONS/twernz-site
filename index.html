@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>T.Wernz Solutions | Consultoria em Tecnologia</title>
+
+    <meta
+      name="description"
+      content="Consultoria em tecnologia com foco em desenvolvimento, design, automação, suporte e decisões técnicas estratégicas."
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <img src="logo.png" alt="T.Wernz Solutions" />
+        </div>
+
+        <a href="#contato" class="btn-primary">Agendar atendimento</a>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Tecnologia aplicada a negócios, com eficiência.</h1>
+
+          <p>
+            Sou <strong>Thiago Wernz</strong>, fundador da
+            <strong>T.Wernz Solutions</strong>. Atuamos com tecnologia de forma
+            estratégica, ajudando empresas a estruturar, organizar e escalar
+            seus negócios com soluções digitais que funcionam no dia a dia.
+          </p>
+
+          <p>
+            Unimos visão de negócio e execução técnica para transformar cenários
+            desorganizados em ambientes eficientes, automatizados e preparados
+            para crescer. Aqui, tecnologia é ferramenta prática para decisão,
+            performance e resultado.
+          </p>
+
+          <a href="#contato" class="btn-primary">Falar no WhatsApp</a>
+        </div>
+
+        <div class="hero-visual">
+          <div class="tech-bg">
+            <span class="node n1"></span>
+            <span class="node n2"></span>
+            <span class="node n3"></span>
+            <span class="node n4"></span>
+
+            <span class="line l1"></span>
+            <span class="line l2"></span>
+            <span class="line l3"></span>
+          </div>
+
+          <svg
+            class="flow-diagram"
+            viewBox="0 0 600 400"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="60" y="60" width="120" height="44" rx="8" />
+            <rect x="240" y="160" width="120" height="44" rx="8" />
+            <rect x="420" y="80" width="120" height="44" rx="8" />
+            <rect x="420" y="260" width="120" height="44" rx="8" />
+
+            <path d="M180 82 L240 182" />
+            <path d="M360 182 L420 102" />
+            <path d="M360 182 L420 282" />
+          </svg>
+
+          <div class="code-layer">
+            <span>const system = init();</span>
+            <span>render.interface();</span>
+            <span>process.flow();</span>
+            <span>optimize.performance();</span>
+            <span>deploy.solution();</span>
+          </div>
+
+          <div class="service-layer visual-flow">
+            <div class="pill">{ code }</div>
+            <div class="pill">UI</div>
+            <div class="pill">API</div>
+            <div class="pill">⚙</div>
+            <div class="pill">↻</div>
+            <div class="pill">cloud</div>
+            <div class="pill">logic</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="services">
+      <div class="container">
+        <h2>O que fazemos</h2>
+
+        <div class="grid">
+          <div class="card service-card">
+            <h3>Desenvolvimento</h3>
+            <p>Soluções digitais sob medida para o seu negócio.</p>
+            <ul>
+              <li>Sistemas web</li>
+              <li>Sites institucionais</li>
+              <li>APIs e integrações</li>
+            </ul>
+          </div>
+
+          <div class="card service-card">
+            <h3>Design</h3>
+            <p>Interfaces claras, funcionais e orientadas a resultado.</p>
+            <ul>
+              <li>UI / UX</li>
+              <li>Design de interfaces</li>
+              <li>Design system</li>
+            </ul>
+          </div>
+
+          <div class="card service-card">
+            <h3>Suporte</h3>
+            <p>Estabilidade, manutenção e evolução contínua.</p>
+            <ul>
+              <li>Suporte técnico</li>
+              <li>Manutenção</li>
+              <li>Monitoramento</li>
+            </ul>
+          </div>
+
+          <div class="card service-card">
+            <h3>Automação</h3>
+            <p>Processos inteligentes para ganhar tempo e escala.</p>
+            <ul>
+              <li>Workflows</li>
+              <li>Bots</li>
+              <li>Integrações</li>
+            </ul>
+          </div>
+
+          <div class="card service-card">
+            <h3>Consultoria</h3>
+            <p>Decisões técnicas orientadas por experiência.</p>
+            <ul>
+              <li>Diagnóstico</li>
+              <li>Arquitetura</li>
+              <li>Escalabilidade</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact">
+      <div class="container contact-container">
+        <div class="contact-content">
+          <h2>Agende um atendimento</h2>
+
+          <p class="contact-text">
+            Vamos entender sua demanda, avaliar o cenário técnico e indicar o
+            melhor caminho. Atendimento direto, objetivo e sem compromisso.
+          </p>
+
+          <form id="contactForm">
+
+            <input type="text" placeholder="Seu nome" required />
+
+            <!-- TELEFONE COM PREFIXO -->
+            <div class="phone-field">
+
+              <select class="phone-prefix" required>
+                <option value="+55">+55</option>
+                <option value="+1">+1</option>
+                <option value="+351">+351</option>
+              </select>
+
+              <input
+                type="tel"
+                class="phone-input"
+                placeholder="DDD + Número"
+                required
+              />
+
+            </div>
+
+            <select required>
+              <option value="">Tipo de demanda</option>
+              <option>Desenvolvimento</option>
+              <option>Design</option>
+              <option>Suporte</option>
+              <option>Automação</option>
+              <option>Consultoria</option>
+            </select>
+
+            <button type="submit" class="btn-primary">
+              Ir para WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 T.Wernz Solutions. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
